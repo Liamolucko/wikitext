@@ -75,14 +75,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "826e7639553986605ec5979c7dd957c7895e93eabed50ab2ffa7f6128a75097c"
 
 [[package]]
-name = "wasabi"
-version = "0.1.3"
-dependencies = [
- "wasm-bindgen",
- "wee_alloc",
-]
-
-[[package]]
 name = "wasm-bindgen"
 version = "0.2.68"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -146,6 +138,14 @@ dependencies = [
  "libc",
  "memory_units",
  "winapi",
+]
+
+[[package]]
+name = "wikitext"
+version = "0.1.0"
+dependencies = [
+ "wasm-bindgen",
+ "wee_alloc",
 ]
 
 [[package]]
